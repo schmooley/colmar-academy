@@ -85,17 +85,16 @@ button {
 
 .quad-two-container {
     overflow: hidden;
+    float: left;
+    padding: 24px 0px 0px 32px;
+    width: 50%;
 }
 
 .reading {
-    width: 50%;
-    padding: 32px 0px 0px 30px;
-    float: left;
+    width: 100%;
 }
 
 .practicing {
-    float: left;
-    padding: 0px 0px 0px 30px;
     display: block;
 }
 
@@ -107,6 +106,9 @@ h6 {
     width: 40%;
     float: right;
     overflow: hidden;
+    display: inline-block;
+    margin-top: 0;
+    
 }
 
 .quadtwo-img {
@@ -122,6 +124,7 @@ h6 {
 .guest-lecture {
     background-color:rgb(165, 161, 161);
     background-size: 50% auto;
+    background-size:contain;
     height: 100%
     }
 
